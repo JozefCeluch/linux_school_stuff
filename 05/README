@@ -1,0 +1,5 @@
+daemon:
+System daemon that creates pipe and then reads from it. Writes all messages
+and statistics to syslog.
+
+named_pipe and unnamed_pipe pipe imitate behaviour of | in shell

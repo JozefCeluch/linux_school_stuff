@@ -1,0 +1,3 @@
+hw6 seeks the same phrase in multiple files passed as arguments of the program,
+every thread search the phrase in one file, not the best program since it loads
+whole files to the memory

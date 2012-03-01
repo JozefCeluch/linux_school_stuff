@@ -1,0 +1,18 @@
+standardny linux kedrnel coding style
+-odsadzovane tabulatorom o dlzke 8 znakov
+-deklaracia funkcie a mainu bez zbytocnych medzier, '{' na novom riadku
+ foo(int x, char *var)
+ {
+	body
+ };
+ 
+-podmienky, cykly s medzerami medzi zatvorkami, '{' na tom istom riadku
+ if (condition) {
+	action;
+ } else if {
+	action;
+ }
+
+-medzery medzi binarnymi operatormi, unarne operatory bez medzery
+-ziadne prazdne riadky
+-nazvy funkcii a premennych malymi_pismenami_oddelene_podciarkovnikom
